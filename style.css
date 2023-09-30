@@ -30,7 +30,8 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    margin: 20px 10%;
+    margin: 20px 8%;
+    background: antiquewhite;
 
     /* gap: 10rem; */
     /* width: 90%; */
@@ -113,11 +114,13 @@ nav ul {
 .search-btn {
     border: none;
     color: #69697B;
+    cursor: pointer;
 }
 
 .shoppingIcon {
     font-size: 25px;
     color: var(--orange);
+    cursor: pointer;
 }
 
 .signIn {
@@ -133,6 +136,7 @@ nav ul {
     border: none;
     padding: 8px 20px;
 
+    cursor: pointer;
 }
 
 .right {
@@ -143,13 +147,19 @@ nav ul {
     gap: 20px;
 }
 
-/* Hero Section */
-.hero {
-    height: 80vh;
-    margin: 20px 10%;
 
+/* Container Common */
+.container {
+    height: 90vh;
+    margin: 20px 10%;
+}
+
+/* Hero Section */
+
+
+.hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .rightSide {
@@ -185,15 +195,126 @@ nav ul {
     /* 177.778% */
 }
 
-.leftSide {
-
-}
+.leftSide {}
 
 .leftSide img {
     height: 500px;
 }
 
 
+/* About Section starts here */
+.about {
+    margin: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+
+    background: whitesmoke;
+}
+
+.about h2 {
+    color: var(--food-delivery-pg, #212244);
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    /* line-height: 58px; */
+    /* 120.833% */
+}
+
+.aboutText {
+    padding-top: 20px;
+    color: var(--food-delivery-p, #69697B);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: justify;
+    /* 172.222% */
+}
+
+.about div {
+    flex: 1;
+    /* margin: 40px; */
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 4rem 0px;
+}
+
+.about div img {
+    align-items: center;
+    height: 200px;
+    padding-bottom: 50px;
+}
+
+.aboutheadline {
+    color: #212244;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+
+    text-align: left;
+    /* 133.333% */
+}
+
+
+/* Shop styling */
+.shop h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.menubar {
+    display: flex;
+}
+
+.menubar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.pricetag {
+    color: var(--food-text-color-2, #69697B);
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 100% */
+}
+
+.item {
+    /* flex: 1; */
+}
+
+.item img {
+    height: 150px;
+}
+
+.stars {
+    color: #FF9401;
+    font-size: 12px;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.price-tag {
+    color: #F94A3D;
+    font-weight: bold;
+    font-size: 13px;
+}
 
 
 
@@ -201,27 +322,71 @@ nav ul {
 
 
 
+/* Download Section */
+
+.download {
+    height: 100vh;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dpage {
+    height: 50vh;
+    background-color: var(--orange);
+
+    margin: 100px;
+}
+
+.dpage img {
+    height: 25vh;
+}
 
 
+/* Footer CSS */
 
+footer {
+    margin: 40px 10%;
 
+    display: flex;
+    justify-content: space-between;
+}
 
+.box1 {
+    width: 15rem;
+    text-align: justify;
+}
 
+.box1 img {
+    padding-bottom: 20px;
+}
 
+.box1 p {
+    padding-bottom: 10px;
+}
 
+.box1 i {
+    font-size: 20px;
+    padding: 20px 10px 0px 0px;
+}
 
+.social-icons {
+    display: flex;
+}
 
+.foolink h4 {
+    padding-bottom: 20px;
+}
 
+.foolink ul {
+    list-style-type: none;
+}
 
+.foolink ul li {
+    padding-bottom: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-/* Footer */
-footer {}
+.foolink a {
+    color: var(--grey);
+}
