@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --orange: #F94A3D;
+    --grey: #69697B;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+
+    background-color: antiquewhite;
+}
+
+/* Header */
+
+header {
+    position: sticky;
+    top: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px 10%;
+
+    /* gap: 10rem; */
+    /* width: 90%; */
+    /* margin: 0 auto; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 30px;
+}
+
+.logo2 {
+    color: var(--food-delivery-orange-color, #F94A3D);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+}
+
+.logo1 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.28px;
+    background-color: var(--orange);
+
+    padding: 0px 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #212244;
+    font-weight: 400;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.search {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    color: #69697B;
+
+    display: flex;
+    align-items: center;
+}
+
+.searchBox {
+    color: #69697B;
+    outline: none;
+    border: none;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search span {
+    font-size: 20px;
+    color: 69697B;
+    opacity: 20%;
+    padding-right: 10px;
+}
+
+.search-btn {
+    border: none;
+    color: #69697B;
+}
+
+.shoppingIcon {
+    font-size: 25px;
+    color: var(--orange);
+}
+
+.signIn {
+    height: 38px;
+    border-radius: 10px;
+    background: var(--orange);
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+
+    border: none;
+    padding: 8px 20px;
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    gap: 20px;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    margin: 20px 10%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.rightSide button {
+    display: inline-block;
+}
+
+.headText {
+    color: #212244;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 70px;
+    /* 116.667% */
+
+    text-align: left;
+}
+
+.headTextRed {
+    color: var(--orange);
+}
+
+.smallText {
+    color: var(--food-delivery-p, #69697B);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+}
+
+.leftSide {
+
+}
+
+.leftSide img {
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {}
