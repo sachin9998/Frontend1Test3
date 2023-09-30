@@ -260,26 +260,51 @@ nav ul {
 
 
 /* Shop styling */
+.shop {
+    margin: 20px 10%;
+    background-color: white;
+}
+
 .shop h2 {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
+
+    padding: 20px;
 }
 
 .menubar {
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 2px solid #EAEAEA;
+
+    margin: 20px 0px;
 }
 
 .menubar ul {
     list-style-type: none;
     display: flex;
+    gap: 20px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.menubar ul li {
+    padding: 5px;
+}
+
+.menubar ul li a {
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .menu-items {
     display: flex;
-    justify-content: space-between;
-    align-self: center;
+
+
+    gap: 10px;
 }
 
 .pricetag {
@@ -291,23 +316,54 @@ nav ul {
     font-weight: 400;
     line-height: 20px;
     /* 100% */
+
+    margin-bottom: 7px;
 }
 
 .item {
-    /* flex: 1; */
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    /* justify-self: center; */
+
+    border-radius: 24px;
+    /* border: 2px solid rgba(234, 234, 234, 0.00); */
+    background: #FFF;
+    
+    margin: 10px 0px;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.item-selected {
+    border: 1px solid#FFCF03;
 }
 
 .item img {
     height: 150px;
+    padding: 20px;
+
+    /* align-self: center; */
+    /* justify-self: center; */
+}
+
+.item p {
+    text-align: center;
 }
 
 .stars {
     color: #FF9401;
     font-size: 12px;
+    padding-bottom: 10px;
 }
 
 .item-name {
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .price-tag {
@@ -316,6 +372,25 @@ nav ul {
     font-size: 13px;
 }
 
+.addtocart {
+    font-size: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background: #F94A3D;
+    color: white;
+}
+
+.addtocart1 {
+    font-size: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #F94A3D;
+    color: #F94A3D;
+    background-color: white;
+
+    margin-bottom: 15px;
+}
 
 
 
