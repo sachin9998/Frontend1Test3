@@ -17,7 +17,7 @@ body {
     line-height: 1.4;
     scroll-behavior: smooth;
 
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 /* Header */
@@ -209,7 +209,7 @@ nav ul {
     justify-content: space-between;
     gap: 3rem;
 
-    background: whitesmoke;
+    background: white;
 }
 
 .about h2 {
@@ -280,7 +280,7 @@ nav ul {
 
     border-bottom: 2px solid #EAEAEA;
 
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .menubar ul {
@@ -302,8 +302,6 @@ nav ul {
 
 .menu-items {
     display: flex;
-
-
     gap: 10px;
 }
 
@@ -333,7 +331,7 @@ nav ul {
     border-radius: 24px;
     /* border: 2px solid rgba(234, 234, 234, 0.00); */
     background: #FFF;
-    
+
     margin: 10px 0px;
 
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -392,8 +390,14 @@ nav ul {
     margin-bottom: 15px;
 }
 
-
-
+/* Testonomial Section */
+.role {
+    color: var(--food-delivery-p, #69697B);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+}
 
 
 
